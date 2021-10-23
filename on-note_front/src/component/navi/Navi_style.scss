@@ -1,0 +1,63 @@
+/* ================= 네비게이션 ======================== */
+header {
+  /* 스크롤 따라다니게 끔 한다. */
+  /* position: fixed; */
+  position: fixed;
+  /* display변경으로 인한 너비 수정 */
+  width: 100%;
+  transition: 0.7s;
+  /* header 맨위에 올리기 */
+  z-index: 10000;
+  background-color: #fff;
+}
+
+nav {
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 20px; */
+}
+/* 로고 영역 */
+.logo {
+  margin-top: 20px;
+}
+
+/* 실제 메뉴칸 */
+.gnb {
+  display: flex;
+}
+
+.gnb li {
+  list-style: none;
+}
+
+.gnb li a {
+  margin: 40px;
+  color: black;
+  text-decoration-line: none;
+  font-size: 1em;
+}
+.gnb li a:hover {
+  color: #555;
+}
+.gnb li a:last-child {
+  margin-right: 0;
+}
+/* Header with Active Class */
+header.active {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: 0.7s;
+}
+header.active .gnb li a {
+  color: #000;
+}
+header.active .banner {
+  display: none;
+}
+header.active nav {
+  padding-bottom: 20px;
+}
+/* ================= 네비게이션 ======================== */

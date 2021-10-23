@@ -1,5 +1,6 @@
 import React from "react"
-//import './Login_style.scss';
+import { Container } from "react-bootstrap";
+import './Login_style.scss';
 
 
 function Login(){
@@ -7,7 +8,9 @@ function Login(){
 
     return(
         <div>
-            login
+            <Container>
+                <div className="test"></div>
+            </Container>
         </div>
     )
 }

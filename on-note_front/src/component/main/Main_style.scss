@@ -1,0 +1,49 @@
+//font-family: 'Do Hyeon', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap');
+//font-family: 'Lobster', cursive;
+//font-family: 'Source Serif Pro', serif;
+
+* {
+  font-family: 'Do Hyeon', sans-serif;
+}
+.MainPage {
+  margin: 0;
+  font-size: 2em;
+  color: #222;
+  line-height: 1.5em;
+  font-weight: 400;
+  height: 4000px;
+}
+
+/* ================= intro 메인 사진 ===================== */
+.intro {
+  height: 100vh;
+  width: 100vw;
+  //background-color: #000;
+  background: url('../../img/main_intro4.jpg') no-repeat center center;
+  /* 배경 꽉채우기 */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  //margin: auto;
+  color: rgb(30, 30, 30);
+  text-align: center;
+}
+.heading h1 {
+  font-size: 4.5em;
+  margin-bottom: 60px;
+  letter-spacing: 10px;
+  font-weight: normal;
+  font-family: 'Lobster', cursive;
+}
+.heading p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding: 0 150px;
+}
+/* ================= intro 메인 사진 ===================== */
